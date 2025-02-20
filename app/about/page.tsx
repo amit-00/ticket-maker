@@ -38,7 +38,7 @@ export default function About() {
           &larr; Back to Ticket Generator
         </Link>
         <h1 className="text-3xl font-bold mb-8">About</h1>
-        <p>I'm a software engineer that hates having to write out Jira ticket descriptions. I started using LLM's to write them for me. Figured this might be a useful tool that gives a bit of consistency. Please try not to burn through my tokens.</p>
+        <p>I`&apos;`m a software engineer that hates having to write out Jira ticket descriptions. I started using LLM`&apos;`s to write them for me. Figured this might be a useful tool that gives a bit of consistency. Please try not to burn through my tokens.</p>
         <br />
         <p>Feel free to leave any suggestions or requests you have for the app.</p>
         <br />
