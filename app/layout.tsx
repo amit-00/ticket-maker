@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Ticket Maker | AI-Powered Ticket Descriptions",
   description:
     "Generate comprehensive Jira ticket descriptions effortlessly. Provide a brief issue description, and get a structured, detailed Jira ticket instantly.",
@@ -27,7 +27,6 @@ export const metadata = {
     "Jira AI Tool",
   ]
 };
-
 
 export default function RootLayout({
   children,
