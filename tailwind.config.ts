@@ -18,6 +18,6 @@ export default {
     require('daisyui'),
   ],
   daisyui: {
-    themes: ["nord"],
+    themes: ["nord", "retro", "bumblebee", "light"],
   },
 } satisfies Config;

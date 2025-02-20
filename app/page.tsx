@@ -2,6 +2,7 @@
 import type React from "react"
 
 import { useState } from "react"
+import Link from "next/link"
 
 export default function Home() {
   const [userInput, setUserInput] = useState("")
@@ -60,7 +61,12 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-base-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl font-bold text-center mb-8">Jira Ticket Generator</h1>
+        <div className="flex justify-between">
+          <h1 className="text-3xl font-bold mb-8">Jira Ticket Generator</h1>
+          <Link href="/about" className="btn btn-link mx-0 px-0 text-black mb-4 no-underline hover:underline">
+            About/Contact
+          </Link>
+        </div>
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
             <label htmlFor="description" className="block text-md font-medium text-gray-700">
